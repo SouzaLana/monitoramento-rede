@@ -28,7 +28,9 @@ namespace monitoramento_rede
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            label.Text = "Ligado";
+            label3.Text = "Ligado";
+            label3.BackColor = Color.Green;
+
 
             Ping ping = new Ping();
 
